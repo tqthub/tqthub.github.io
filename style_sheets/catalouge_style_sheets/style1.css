@@ -90,7 +90,6 @@ h1{
 }
 
 /*-------5th-------styling the third row collection table-------*/
-
 .cata-3rd-row{
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +122,8 @@ h1{
 #collection-table td,#collection-table th {
     padding: 5px;
     text-align: left;   
-    border: 1px solid black; 
+    border: 1px solid black;
+
 }
 
 #collection-table input[type=text] {
