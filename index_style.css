@@ -99,10 +99,19 @@ body {
 }
 
 @media screen and (max-width: 700px){
+<<<<<<< HEAD
     .home_page_catalouge_container{   
         flex-direction: column;
     }
 }
+=======
+	.home_page_catalouge_container{   
+        flex-direction: column;
+    }
+}
+
+
+>>>>>>> b1797fa4075178dd386bc0ab1cc387dc692c67f3
 
 
 
