@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.breadcrumb li{
+    list-style-type: none;
+    }
+
+
+
+h1{
+    color: #0787ea;
+}
+
+
+
+
+
+
+
+
+
+.cata-head-row{
+	display: flex;
+    flex-wrap: wrap;
+}
+.img-column{
+	 flex: 30%;
+    background-color: #0787ea;
+    padding: 20px;
+}
+.coin-desc-column{
+	 flex: 70%;
+    background-color: #0787ea;
+    padding: 20px;
+}
+
+#specs-table{
+    border-collapse: collapse;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color:rgba(7, 135, 234, 0.5);
+    width:100%;
+}
+#specs-table td{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+.cata-2nd-row{
+	display: flex;
+    flex-wrap: wrap;
+}
+.coin-specs{
+	 flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.coin-desc{
+	 flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.about-coin{
+	 flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.cata-notification:before {
+  content: "Note: Updating Your Collection Feature Will be Launched Soon";
+}
+.cata-notification{
+    background-color: rgba(7,135,234,0.5);
+    line-height: 200%;
+    border-left:10px solid blue;
+}
+
+
+#collection-table{
+	 width:auto;
+}
+.manage-collection-table table,.manage-collection-table th,.manage-collection-table td {
+    
+    border-collapse: collapse;
+}
+#collection-table td,#collection-table th {
+    padding: 5px;
+    text-align: left;   
+    border: 1px solid black; 
+}
+
+#collection-table {
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .cata-head-row,.cata-2nd-row,.manage-collection-table{   
+        flex-direction: column;
+    }
+}
