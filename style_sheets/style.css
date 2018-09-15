@@ -100,3 +100,20 @@ h1{
     border-left:10px solid blue;
 }
 
+
+/** Bread Crumbs**/
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.breadcrumb li{
+    list-style-type: none;
+    }
