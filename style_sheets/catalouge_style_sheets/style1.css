@@ -17,15 +17,35 @@ body {
     padding: .75rem 1rem;
     margin-bottom: 1rem;
     list-style: none;
-    background-color: rgba(7, 135, 234, 0.5);
+    background-color: #f1f1f1;
     border-radius: .25rem;
+    margin:0;
 }
 .breadcrumb li{
     list-style-type: none;
     }
+.breadcrumb a{
+    text-decoration: none;  
+}
+.breadcrumb a:link{
+    color:#0787ea;
+}
+.breadcrumb a:visited{
+    color:#0787ea;
+}
+.breadcrumb a:hover{
+    color:#094E83;
+}
+#last_item{
+    color:#1abc9c;
+}
 /*-----2nd-------Header Color*/
 h1{
     color: #1D1959;
+    background: #1abc9c;
+    margin:0;
+    padding:10px;
+    border-bottom: 2px solid black;
 }
 /*------3rd---------Styling The First row of catalouge------------*/
 /*setting display to flex so that sections are displayed side to side*/
@@ -36,14 +56,17 @@ h1{
 /*-----setting image colomun flex to 30% on large screens-------*/
 .img-column{
 	 flex: 30%;
-    background-color: rgba(7, 135, 234, 0.5);
-    padding: 20px;
+    background-color: #1abc9c;
+    padding: 40px 20px 40px 20px;
+    margin:0;
+
 }
 /*-----setting coin desc colomun flex to 70% on large screens-------*/
 .coin-desc-column{
 	 flex: 70%;
-    background-color: rgba(7, 135, 234, 0.5);
-    padding: 20px;
+    background-color:#1abc9c;
+    padding: 40px 20px 40px 20px;
+    margin:0;
 }
 /*------4th-------Styling The Second row of catalouge------------*/
 /*setting display to flex so that sections are displayed side to side*/
@@ -179,6 +202,18 @@ h1{
 .card img{
     height:200px;
 }
+/*---------Fotter-----------*/
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color:white;
+}
+.footer a{
+    text-decoration: none ;
+    color: inherit;
+}
+
 
 /*-------making site user friendly--------*/
 /*-------setting flex-direction to column on devices smaller then 700px width-------*/
