@@ -60,7 +60,7 @@ body {
 
 
 .home_page_catalouge{
-    padding: 30px;
+    padding: 20px;
     background:#e1e1e1;
 }
 .home_page_catalouge_container{
@@ -97,6 +97,9 @@ body {
 .card_container{
     padding:20px;
 }
+
+
+
 /* Footer */
 .footer {
     padding: 10px;
