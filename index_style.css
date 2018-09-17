@@ -87,11 +87,11 @@ body {
 
 .home_page_catalouge_container img{
     height:300px;
-    width:250px;
+    width:300px;
 }
 
 .home_page_catalouge_container .container{
-    width:250px;
+    width:300px;
 }
 
 .home_page_catalouge h4{
@@ -119,6 +119,15 @@ body {
     .home_page_catalouge_container{   
         flex-direction: column;
     }
+    .home_page_catalouge_container img{
+    height:100%;
+    width:100%;
+}
+
+.home_page_catalouge_container .container{
+    width:100%;
+}
+
 }
 
 
