@@ -84,13 +84,16 @@ body {
 .home_page_catalouge .container {
     padding: 2px 16px;
 }
+
 .home_page_catalouge_container img{
     height:300px;
-    width:300px;
+    width:250px;
 }
+
 .home_page_catalouge_container .container{
-    width:300px;
+    width:250px;
 }
+
 .home_page_catalouge h4{
     text-align:center;
 }
